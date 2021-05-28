@@ -1,27 +1,63 @@
-GET https://example.com/comments/1 HTTP/1.1
-
-leagueId: ldemf9yvkjpcfa5w
-
 ###  Test Get:
-GET http://localhost:35580/api/Loans HTTP/1.1
+GET http://localhost:3500/api/Loans HTTP/1.1
 
 
 ###  Test Get by ID: 1
-GET http://localhost:35580/api/Loans/1 HTTP/1.1
+GET http://localhost:3500/api/Loans/1 HTTP/1.1
 
 ###  Test Get by ID: 2
-GET http://localhost:35580/api/Loans/2 HTTP/1.1
+GET http://localhost:3500/api/Loans/2 HTTP/1.1
 
 ###  Test Get by ID: 3
-GET http://localhost:35580/api/Loans/3 HTTP/1.1
+GET http://localhost:3500/api/Loans/3 HTTP/1.1
 
 
-###  Test POST
-POST http://localhost:35580/api/Loans/ HTTP/1.1
+###  Test POST - test case 1
+POST http://localhost:3500/api/Loans/ HTTP/1.1
+content-type: application/json
+
 {
-  "id": 4,
   "outstandingAmtCurrent": 4000.00,
   "intRateCurrent": 4.2585,
   "remainingTerm": 456,
-  "monthlyPrincipalPayment": 4000.0
+  "monthlyPrincipalPayment": 4000.0,
+  "isActive": 1,
+    "createdBy": "test case 1",
+    "updatedBy": "test case 1"
 }
+
+###  Test Get by ID: 5
+GET http://localhost:3500/api/Loans/5 HTTP/1.1
+
+###  Test POST - test case 2
+POST http://localhost:3500/api/Loans/ HTTP/1.1
+content-type: application/json
+
+{
+  "outstandingAmtCurrent": 4000.00,
+  "intRateCurrent": 4.2585,
+  "remainingTerm": 456,
+  "monthlyPrincipalPayment": 4000.0,
+  "isActive": 1,
+  "createdBy": "test case 2",
+  "updatedBy": "test case 2"
+}
+###  Test Get by ID: 7
+GET http://localhost:3500/api/Loans/3 HTTP/1.1
+
+###  Test PUT - test case 1
+PUT http://localhost:3500/api/Loans/3 HTTP/1.1
+content-type: application/json
+
+{
+  "outstandingAmtCurrent": 999.00,
+  "intRateCurrent": 9.2585,
+  "remainingTerm": 789,
+  "monthlyPrincipalPayment": 4000.0,
+  "isActive": 0,
+  "createdBy": "put test case 3",
+  "updatedBy": "put test case 3"
+}
+
+###  Test Get by ID: 3
+GET http://localhost:3500/api/Loans/3 HTTP/1.1
