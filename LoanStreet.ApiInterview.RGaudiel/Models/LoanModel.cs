@@ -11,12 +11,13 @@ namespace LoanStreet.ApiInterview.RGaudiel.Models
     /// </summary>
     public class LoanModel
     {
+        [Required]
         public int Id { get; set; }
         [Required(ErrorMessage = "Loans must have an outstanding amount.")]
-        public decimal OutstandingAmtCurrent { get; set; }
-        public decimal IntRateCurrent { get; set; }
-        public int RemainingTerm { get; set; }
-        public decimal MonthlyPrincipalPayment { get; set; }
+        public decimal OutstandingAmtCurrent { get; set; } /* ToDo: Add validation, > 0 */
+        public decimal IntRateCurrent { get; set; } 
+        public int RemainingTerm { get; set; } /* ToDo: Add validation, > 0 */
+        public decimal MonthlyPrincipalPayment { get; set; } /* ToDo: Add validation, > 0 */
         [Required]
         public int IsActive { get; set; }
         [Required]

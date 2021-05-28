@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Admin\\Source\\Repos\\roxg-api-interview\\LoanStreet.ApiInterview.RGaudiel\\LoanStreet.ApiInterview.RGaudiel.csproj": {}
+    "C:\\Users\\Admin\\source\\repos\\roxg-api-interview\\LoanStreet.ApiInterview.RGaudiel\\LoanStreet.ApiInterview.RGaudiel.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Admin\\Source\\Repos\\roxg-api-interview\\LoanStreet.ApiInterview.RGaudiel\\LoanStreet.ApiInterview.RGaudiel.csproj": {
+    "C:\\Users\\Admin\\source\\repos\\roxg-api-interview\\LoanStreet.ApiInterview.RGaudiel\\LoanStreet.ApiInterview.RGaudiel.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Admin\\Source\\Repos\\roxg-api-interview\\LoanStreet.ApiInterview.RGaudiel\\LoanStreet.ApiInterview.RGaudiel.csproj",
+        "projectUniqueName": "C:\\Users\\Admin\\source\\repos\\roxg-api-interview\\LoanStreet.ApiInterview.RGaudiel\\LoanStreet.ApiInterview.RGaudiel.csproj",
         "projectName": "LoanStreet.ApiInterview.RGaudiel",
-        "projectPath": "C:\\Users\\Admin\\Source\\Repos\\roxg-api-interview\\LoanStreet.ApiInterview.RGaudiel\\LoanStreet.ApiInterview.RGaudiel.csproj",
+        "projectPath": "C:\\Users\\Admin\\source\\repos\\roxg-api-interview\\LoanStreet.ApiInterview.RGaudiel\\LoanStreet.ApiInterview.RGaudiel.csproj",
         "packagesPath": "C:\\Users\\Admin\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Admin\\Source\\Repos\\roxg-api-interview\\LoanStreet.ApiInterview.RGaudiel\\obj\\",
+        "outputPath": "C:\\Users\\Admin\\source\\repos\\roxg-api-interview\\LoanStreet.ApiInterview.RGaudiel\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Admin\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -60,6 +60,10 @@
               "target": "Package",
               "version": "[2.1.0, )",
               "autoReferenced": true
+            },
+            "log4net": {
+              "target": "Package",
+              "version": "[2.0.12, )"
             }
           },
           "imports": [

@@ -15,3 +15,11 @@ C:\Users\Admin\source\repos\api-interview\LoanStreet.ApiInterview.RGaudiel\obj\D
 C:\Users\Admin\source\repos\api-interview\LoanStreet.ApiInterview.RGaudiel\obj\Debug\netcoreapp2.1\LoanStreet.ApiInterview.RGaudiel.dll
 C:\Users\Admin\source\repos\api-interview\LoanStreet.ApiInterview.RGaudiel\obj\Debug\netcoreapp2.1\LoanStreet.ApiInterview.RGaudiel.pdb
 C:\Users\Admin\source\repos\api-interview\LoanStreet.ApiInterview.RGaudiel\obj\Debug\netcoreapp2.1\LoanStreet.ApiInterview.RGaudiel.genruntimeconfig.cache
+C:\Users\Admin\Source\Repos\roxg-api-interview\LoanStreet.ApiInterview.RGaudiel\obj\Debug\netcoreapp2.1\LoanStreet.ApiInterview.RGaudiel.csprojAssemblyReference.cache
+C:\Users\Admin\Source\Repos\roxg-api-interview\LoanStreet.ApiInterview.RGaudiel\obj\Debug\netcoreapp2.1\LoanStreet.ApiInterview.RGaudiel.AssemblyInfoInputs.cache
+C:\Users\Admin\Source\Repos\roxg-api-interview\LoanStreet.ApiInterview.RGaudiel\obj\Debug\netcoreapp2.1\LoanStreet.ApiInterview.RGaudiel.AssemblyInfo.cs
+C:\Users\Admin\Source\Repos\roxg-api-interview\LoanStreet.ApiInterview.RGaudiel\obj\Debug\netcoreapp2.1\LoanStreet.ApiInterview.RGaudiel.csproj.CoreCompileInputs.cache
+C:\Users\Admin\Source\Repos\roxg-api-interview\LoanStreet.ApiInterview.RGaudiel\obj\Debug\netcoreapp2.1\LoanStreet.ApiInterview.RGaudiel.RazorAssemblyInfo.cache
+C:\Users\Admin\Source\Repos\roxg-api-interview\LoanStreet.ApiInterview.RGaudiel\obj\Debug\netcoreapp2.1\LoanStreet.ApiInterview.RGaudiel.RazorAssemblyInfo.cs
+C:\Users\Admin\Source\Repos\roxg-api-interview\LoanStreet.ApiInterview.RGaudiel\obj\Debug\netcoreapp2.1\LoanStreet.ApiInterview.RGaudiel.dll
+C:\Users\Admin\Source\Repos\roxg-api-interview\LoanStreet.ApiInterview.RGaudiel\obj\Debug\netcoreapp2.1\LoanStreet.ApiInterview.RGaudiel.pdb

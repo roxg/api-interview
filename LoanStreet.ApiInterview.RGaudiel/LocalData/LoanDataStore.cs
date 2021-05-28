@@ -15,32 +15,48 @@ namespace LoanStreet.ApiInterview.RGaudiel.LocalData
 
         public LoanDataStore()
         {
+            var now = DateTime.Now;
             // init dummy data
             Loans = new List<LoanModel>()
             {
                 new LoanModel()
                 {
                      Id = 1,
-                     OutstandingAmtCurrent = 150000.00m,
-                     IntRateCurrent = 3.2585m,
-                     RemainingTerm = 123,
-                     MonthlyPrincipalPayment = 1000.0m
+                     OutstandingAmtCurrent      = 150000.00m,
+                     IntRateCurrent             = 3.2585m,
+                     RemainingTerm              = 123,
+                     MonthlyPrincipalPayment    = 1000.0m,
+                     IsActive                   = 1,
+                     CreatedBy                  = "original entry",
+                     CreatedDt                  = now,
+                     UpdatedBy                  = "original entry",
+                     UpdateDt                   = now
                 },
                 new LoanModel()
                 {
                      Id = 2,
-                     OutstandingAmtCurrent = 250000.00m,
-                     IntRateCurrent = 3.12345678m,
-                     RemainingTerm = 300,
-                     MonthlyPrincipalPayment = 2222.0m
+                     OutstandingAmtCurrent      = 250000.00m,
+                     IntRateCurrent             = 3.12345678m,
+                     RemainingTerm              = 300,
+                     MonthlyPrincipalPayment    = 2222.0m,
+                     IsActive                   = 1,
+                     CreatedBy                  = "original entry",
+                     CreatedDt                  = now,
+                     UpdatedBy                  = "original entry",
+                     UpdateDt                   = now
                 },
                 new LoanModel()
                 {
                      Id = 3,
-                     OutstandingAmtCurrent = 350000.00m,
-                     IntRateCurrent = 3.2585m,
-                     RemainingTerm = 123,
-                     MonthlyPrincipalPayment = 3333.0m
+                     OutstandingAmtCurrent      = 350000.00m,
+                     IntRateCurrent             = 3.2585m,
+                     RemainingTerm              = 123,
+                     MonthlyPrincipalPayment    = 3333.0m,
+                     IsActive                   = 1,
+                     CreatedBy                  = "original entry",
+                     CreatedDt                  = now,
+                     UpdatedBy                  = "original entry",
+                     UpdateDt                   = now
                 }
             };
         }
